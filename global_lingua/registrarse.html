@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Lingua Contactos</title>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="">
+                <img src="images/logo.png" alt="">
+            </a>
+            <div class="togglemenu"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="sucursales.html">Sucursales</a></li>
+                    <li><a href="registrarse.html">Registrarse</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="registrarse">
+            <h2>Registrarse</h2>
+        </section>
+        <article id="contenido">
+            <form action="index.html" method="post">
+                <fieldset>
+                <legend><b>Datos Personales</b></legend>                                                                                                               
+                <label for="nombreCompleto">Nombre:</label>
+                <input name="nombreCompleto" type="text" placeholder="Ingresa tu nombre">
+                <br>
+                <br>
+                <label for="apellidoCompleto">Apellido</label>
+                <input name="apellidoCompleto" type="text" placeholder="Ingresa tus apellidos">
+                <br>
+                <br>
+                <label for="fechaNam">Fecha Nacimiento</label>
+                <input name="fechaNam" type="date">
+                <br>
+                <br>
+                <label for="correoElectronico">Correo electronico:</label>
+                <input name="correoElectronico" type="text" placeholder="Ingresa tu correo electronico">
+                <br>
+                <br>
+                <label for="numTelefono">Numero Telefónico</label>
+                <input name="numTelefono" type="text" placeholder="Ingresa tu numero de teléfono">
+                </fieldset> 
+                <br>
+                <fieldset>
+                    <legend><b>Idioma</b></legend>
+                    
+                    <label for="idioma">¿Qué idioma le interesa?</label>
+                    Inglés <input name="idioma" type="radio"> 
+                    Francés <input name="idioma" type="radio"> 
+                    Alemán <input name="idioma" type="radio"> 
+                    <br>
+                    <br>
+                    <label for="nivel">¿Qué nivel se encuentra</label>
+                    Principiante <input name="nivel" type="radio">
+                    Intermedio <input name="nivel" type="radio">
+                    Avanzado <input name="nivel" type="radio">
+                    <br>
+                    <br>
+                    <label for="nivel">¿Qué horario le gustaria cursar?</label>
+                    Mañana <input name="nivel" type="radio">
+                    Tarde <input name="nivel" type="radio">
+                    Noche <input name="nivel" type="radio">
+                    <br>
+                    <br>
+                    <label for="diaSem">¿Qué días de la semana le gustaría aprender?</label>
+                    <input name="diaSem" type="checkbox"> Lunes
+                    <input name="diaSem" type="checkbox"> Martes
+                    <input name="diaSem" type="checkbox"> Miercoles
+                    <input name="diaSem" type="checkbox"> Jueves
+                    <input name="diaSem" type="checkbox"> Viernes
+                    <input name="diaSem" type="checkbox"> Sabado
+                    <input name="diaSem" type="checkbox"> Domingo
+                </fieldset>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </article>
+    </main> 
+</body>
+</html>
